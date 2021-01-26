@@ -2,7 +2,7 @@
 signal-cli compiled for Raspberry Pi
 See https://github.com/AsamK/signal-cli for the source and original author
 
-signal-cli.0.7.1.tar -> Signal-cli v0.7.1 build for Raspberry PI 3B with Raspbian GNU/Linux 10 (buster)
+rpi_signal-cli.0.7.1.tar -> Signal-cli v0.7.1 build for Raspberry PI 3B with Raspbian GNU/Linux 10 (buster)
 with updated zkgroup library v0.7.1
 Build with:
 - Java JDK c11.0.9.1

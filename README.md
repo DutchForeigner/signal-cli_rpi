@@ -1,12 +1,13 @@
 # signal-cli compiled for Raspberry Pi
 See https://github.com/AsamK/signal-cli for the source and original author.
+See https://github.com/exquo/signal-libs-build for the source of the dependent libraries.
 
 So far, I've only tested/used the 'register' (with --captcha), 'verify' and 'send -m' commands.
 All ran with no errors.
 
-**rpi_signal-cli.0.8.3.tar**  -> Signal-cli v0.8.3
+**rpi_signal-cli.0.8.4.1.tar**  -> Signal-cli v0.8.4.1
 Build with:
-- Raspberry PI 3B with Raspbian GNU/Linux 10 (buster) Lite
+- Raspberry PI 3B with Raspbian GNU/Linux 10 (buster) Lite (32bit)
 - Java JDK v11.0.11+9-post-Raspbian-1deb10u1
 - Gradle v7.1
 - Rust  1.53.0
@@ -15,11 +16,7 @@ Build with:
 - zip 3.0-11
 - unzip 6.0-23+deb10u2
 
-These 2 libraries are already included in the above mentioned tar file (stored here for possible future use):
-- **zkgroup-java-0.7.0.jar** the dependent library build for Raspberry Pi, updated source is https://github.com/signalapp/zkgroup/releases release/tag: v0.7.2
-- **signal-client-java-0.2.3.jar** the dependent library build for Raspberry Pi, updated source is https://github.com/AsamK/signal-cli/wiki/Provide-native-lib-for-libsignal release/tag: java-0.2.3
-
-**Manual_build_v0.8.3.pdf** -> the manual build steps, used to build the tar file.
+**Manual_build_v0.8.4.1.pdf** -> the manual build steps, used to build the tar file.
 
 ### Older version(s):
 - rpi_signal-cli.0.8.1.tar -> Signal-cli v0.8.1 build on Raspberry PI 3B with Raspbian GNU/Linux 10 (buster)
